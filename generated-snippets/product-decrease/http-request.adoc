@@ -1,9 +1,0 @@
-[source,http,options="nowrap"]
-----
-POST /products/decrease HTTP/1.1
-Content-Type: application/json;charset=UTF-8
-Content-Length: 31
-Host: localhost:8080
-
-{"productId":1001,"quantity":3}
-----

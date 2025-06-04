@@ -1,4 +1,0 @@
-[source,json,options="nowrap"]
-----
-{"code":"PRD-001","message":"�긽�뭹�씠 議댁옱�븯吏� �븡�뒿�땲�떎.","createdAt":"2025-06-04T20:08:36.7475547"}
-----
