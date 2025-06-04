@@ -1,0 +1,66 @@
+= 상품 서비스 API 명세서
+:toc: left
+:toclevels: 2
+
+== 재고 저장
+
+=== 엔드포인트
+[source,http]
+----
+POST /products/restore
+Content-Type: application/json
+----
+
+=== 요청 필드
+include::{snippets}/product-restore/request-fields.adoc[]
+
+=== 요청 예시
+include::{snippets}/product-restore/http-request.adoc[]
+
+=== 응답 필드
+이 API는 응답 본문이 없습니다.
+
+=== 응답 예시
+include::{snippets}/product-restore/http-response.adoc[]
+
+== 재고 차감
+
+=== 엔드포인트
+[source,http]
+----
+POST /products/decrease
+Content-Type: application/json
+----
+
+=== 요청 필드
+include::{snippets}/product-decrease/request-fields.adoc[]
+
+=== 요청 예시
+include::{snippets}/product-decrease/http-request.adoc[]
+
+=== 응답 필드
+이 API는 응답 본문이 없습니다.
+
+=== 응답 예시
+include::{snippets}/product-decrease/http-response.adoc[]
+
+== 상품 조회
+
+=== 엔드포인트
+[source,http]
+----
+GET /products/{productId}?attributeId={attributeId}
+----
+
+=== 요청 파라미터
+|===
+|이름         |타입   |설명
+|productId    |Long   |상품 ID
+|attributeId  |Long   |속성 ID
+|===
+
+=== 응답 필드
+include::{snippets}/product-get/response-fields.adoc[]
+
+=== 응답 예시
+include::{snippets}/product-get/http-response.adoc[]

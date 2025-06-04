@@ -1,0 +1,5 @@
+[source,bash]
+----
+$ echo '{"productId":1001,"quantity":10}' | http POST 'http://localhost:8080/products/restore' \
+    'Content-Type:application/json;charset=UTF-8'
+----

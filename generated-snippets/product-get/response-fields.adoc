@@ -1,0 +1,36 @@
+|===
+|Path|Type|Description
+
+|`+productId+`
+|`+Number+`
+|상품 ID
+
+|`+productName+`
+|`+String+`
+|상품명
+
+|`+attributeId+`
+|`+Number+`
+|속성 ID
+
+|`+itemType+`
+|`+Number+`
+|아이템 타입
+
+|`+stockQuantity+`
+|`+Number+`
+|재고수량
+
+|`+price+`
+|`+Number+`
+|상품가격
+
+|`+createdAt+`
+|`+String+`
+|생성일
+
+|`+updatedAt+`
+|`+String+`
+|수정일
+
+|===

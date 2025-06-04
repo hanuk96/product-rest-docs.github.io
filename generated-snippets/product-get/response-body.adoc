@@ -1,0 +1,4 @@
+[source,json,options="nowrap"]
+----
+{"productId":1,"productName":"�뀒�뒪�듃�긽�뭹","attributeId":1,"itemType":0,"stockQuantity":91,"price":20000,"createdAt":"2025-06-03T18:31:27.833112","updatedAt":"2025-06-03T20:55:55.627801"}
+----
